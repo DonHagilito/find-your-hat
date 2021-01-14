@@ -1,6 +1,18 @@
-const prompt = require('prompt-sync')({sigint: true});
+const Field = require('./mechanics.js');
 
-const hat = '^';
-const hole = 'O';
-const fieldCharacter = '░';
-const pathCharacter = '*';
+const myField = new Field([
+    ['*', '░', 'O'],
+    ['░', 'O', '░'],
+    ['░', '^', '░'],
+]);
+  
+myField.print();
+
+//Game variables
+let gameFinished = false;
+
+
+//Game loop
+while(
+
+)
