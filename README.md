@@ -18,4 +18,4 @@ Use WASD to control the character and navigate the field in search of your hat. 
 To run the project you need run main.js in a terminal with Node and NPM installed. Any computer is able to run it.
 
 ## Illustration
-![Image of the game](./image "Game Preview")
+![Image of the game](https://github.com/DonHagilito/find-your-hat/blob/main/image.png "Game Preview")
