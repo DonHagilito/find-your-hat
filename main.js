@@ -4,10 +4,25 @@ const prompt = require('prompt-sync')({sigint: true});
 //Game variables
 let input = '';
 let gameFinished = [false, ''];
+let height = 30;
+let width = 30;
+let percentHole = 30;
 
-//Create a new field from Field class with dimensions. 
-const myField = new Field(Field.generateField(20, 20, 30));
+//Decide the size of the game
+const answer = prompt("Play with recommended settings? y/n: ").toLowerCase();
+console.log(answer)
+if (answer === 'n'){
+    height = parseInt(prompt("Height of map? "));
+    width = parseInt(prompt("Width of map? "));
+    percentHole = parseInt(prompt("How many percent of the map should be holes? "));
+}
+
+
+
+//Create a new field from Field class with dimensions.
+const myField = new Field(Field.generateField(height, width, percentHole));
 //Set the players startpoint according to generated field.
+
 player.setStartPos(myField);
 
 //Game loop
