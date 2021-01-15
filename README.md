@@ -20,6 +20,8 @@ Use WASD + ENTER to control the character and navigate the field in search of yo
 To run the project you need run main.js in a terminal with Node and NPM installed. Any computer is able to run it.
 
 ## Illustration
+### Game preview
 ![Image of the game](https://github.com/DonHagilito/find-your-hat/blob/main/image.png "Game Preview")
-
-![The maps are always solveable](https://github.com/DonHagilito/find-your-hat/blob/main/image2.png "Always solveable")
+### Example of complex maps that are still solveable thanks to algorithm
+![Example 1](https://github.com/DonHagilito/find-your-hat/blob/main/image2.png "Example 1")
+![Example 2](https://github.com/DonHagilito/find-your-hat/blob/main/image3.png "Example 2")
